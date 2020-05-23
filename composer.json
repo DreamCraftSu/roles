@@ -1,5 +1,5 @@
 {
-    "name": "DreamCraftSu/roles",
+    "name": "dreamcraftsu/roles",
     "description": "Powerful package for handling roles and permissions in Laravel 5.",
     "keywords": [
         "roles",
@@ -12,7 +12,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "DreamCraftSu"
+            "name": "Andrei Gavrilov"
         }
     ],
     "require": {
