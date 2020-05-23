@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/jameswmcnab/roles.svg?branch=6.0)](https://travis-ci.org/jameswmcnab/roles)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jameswmcnab/roles/badges/quality-score.png?b=6.0)](https://scrutinizer-ci.com/g/jameswmcnab/roles/?branch=7.0)
-[![StyleCI](https://styleci.io/repos/216346252/shield?branch=6.0)](https://styleci.io/repos/216346252)
-[![Coverage Status](https://coveralls.io/repos/github/jameswmcnab/roles/badge.svg?branch=6.0)](https://coveralls.io/github/jameswmcnab/roles?branch=7.0)
+[![Build Status](https://travis-ci.org/DreamCraftSu/roles.svg?branch=master)](https://travis-ci.org/DreamCraftSu/roles)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/DreamCraftSu/roles/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/DreamCraftSu/roles/?branch=master)
+[![StyleCI](https://github.styleci.io/repos/266362116/shield?branch=master)]
+[![Coverage Status](https://coveralls.io/repos/github/DreamCraftSu/roles/badge.svg?branch=master)](https://coveralls.io/github/DreamCraftSu/roles?branch=master)
 
 # Roles And Permissions For Laravel 7
 
@@ -35,9 +35,19 @@ This package is very easy to set up. There are only couple of steps.
 
 ### Composer
 
-~~Pull this package in through Composer~~.
+Pull this package in through Composer (file `composer.json`).
 
-This package is a fork I'm maintaining for a short time, and will not be submitted to packagist.
+```js
+{
+    "require": {
+        "dreamcraft/roles": "^5.7"
+    }
+}
+```
+
+Run this command inside your terminal.
+
+    composer update
 
 ### Service Provider
 
@@ -369,7 +379,7 @@ You can change connection for models, slug separator, models path and there is a
 
 ## More Information
 
-For more information, please have a look at [HasRoleAndPermission](https://github.com/ultraware/roles/blob/master/src/Contracts/HasRoleAndPermission.php) contract.
+For more information, please have a look at [HasRoleAndPermission](https://github.com/dreamcraftsu/roles/blob/master/src/Contracts/HasRoleAndPermission.php) contract.
 
 ## License
 
