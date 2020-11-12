@@ -1,6 +1,6 @@
 {
     "name": "dreamcraftsu/roles",
-    "description": "Powerful package for handling roles and permissions in Laravel 5.",
+    "description": "Powerful package for handling roles and permissions in Laravel 8.",
     "keywords": [
         "roles",
         "permissions",
@@ -12,7 +12,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Andrei Gavrilov"
+            "name": "Anton Bardov"
         }
     ],
     "require": {

@@ -3,7 +3,7 @@
 [![StyleCI](https://github.styleci.io/repos/266362116/shield?branch=master)]
 [![Coverage Status](https://coveralls.io/repos/github/DreamCraftSu/roles/badge.svg?branch=master)](https://coveralls.io/github/DreamCraftSu/roles?branch=master)
 
-# Roles And Permissions For Laravel 7
+# Roles And Permissions For Laravel 8
 
 Powerful package for handling roles and permissions in Laravel 6.
 
@@ -40,7 +40,7 @@ Pull this package in through Composer (file `composer.json`).
 ```js
 {
     "require": {
-        "dreamcraft/roles": "^5.7"
+        "dreamcraft/roles": "^5.8"
     }
 }
 ```
@@ -55,9 +55,9 @@ Add the package to your application service providers in `config/app.php` file.
 
 ```php
 'providers' => [
-    
+
     ...
-    
+
     /**
      * Third Party Service Providers...
      */
@@ -146,7 +146,7 @@ if ($user->isAdmin()) {
 And of course, there is a way to check for multiple roles:
 
 ```php
-if ($user->hasRole(['admin', 'moderator'])) { 
+if ($user->hasRole(['admin', 'moderator'])) {
     /*
     | Or alternatively:
     | $user->hasRole('admin, moderator'), $user->hasRole('admin|moderator'),
